@@ -1,0 +1,119 @@
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  align-content: space-around;
+}
+.cont{
+  min-height: 400px;
+  width:100%;
+  font-family:Lucidia Consol, Conslas, Georgia, Gadugi, Sylfaen, Segoe UI, Verdana, serif;
+  flex-grow: 1;
+}
+.subcont{
+  width:100%;
+  max-width:1200px;
+  margin:0px auto;
+  min-height:400px;
+}
+.black{
+  background-color: #222;
+}
+.purp{
+  background-color: #532971;
+}
+.white{
+  background-color: #FFF;
+}
+.purp h1,.purp h2,.purp h3,.purp h4,.purp h5,.purp h6,.purp p,.purp a,.purp span,.black h1{
+  color:#FFF;
+  display:inline-block;
+  width:90%;
+}
+.black p{
+  color:#FFF;
+}
+.cont h1{
+  text-align:center;
+  margin:2% inherit;
+}
+/*.cont:first-child img{
+  filter:invert();
+  -webkit-filter:invert();
+  float:right;
+  max-width:66%;
+  height:70%;
+}*/
+@media screen and (max-width:600px){
+  .vidcont{
+    margin-left:1% !important;
+  }
+  .cont{
+    min-height:600px !important;
+  }
+  .polywell_img{
+    margin-right: 2% !important;
+    padding-bottom:0px !important;
+  }
+  .began_cont{
+    width:50% !important;
+  }
+  .polywell_img{
+    width: 40% !important;
+  }
+}
+@media screen and (max-width:900px){
+  .cont:nth-child(3), .cont:nth-child(4){
+    padding-bottom:30% !important;
+  }
+}
+.cont p{
+  text-align:left;
+  margin-left:5%;
+  display:block;
+  margin:2% 5%;
+}
+.intro_vid{
+  height:100%;
+}
+.vidcont{
+  margin-right:10%;
+  display:block;
+  height:350px;
+  max-width:30%;
+  position: relative;
+  float:right;
+}
+.cont2txt{
+  float: left;;
+  width:50%;
+}
+.cont:nth-child(4){
+  padding-bottom:10%;
+}
+.polywell_img{
+  width:35%;
+  float:left;
+  margin-right:5%;
+  margin-left:5%;
+  background-color: transparent;
+  padding-bottom:20px;
+}
+.began_cont{
+  width:60%;
+  margin-right: 0;
+  float:left;
+}
+.index_polywell_chamber{
+  height:180px;
+  display:inline-block;
+  margin:0 3%;
+}
+.welcome_image_cont{
+  width:60%;
+  margin:0 auto;
+}
+.vidcont video{
+  float:left;
+}

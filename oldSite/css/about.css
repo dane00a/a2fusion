@@ -1,0 +1,13 @@
+h2{
+  text-align: center;
+}
+.about p{
+  width:70%;
+  margin:10px auto;
+}
+.bioimage{
+  width:200px;
+  border-radius:5px;
+  margin:1% auto;
+  display:block;
+}
